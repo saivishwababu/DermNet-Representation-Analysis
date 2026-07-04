@@ -1,0 +1,1 @@
+# Disable Jekyll processing to allow folders starting with underscores (like _next) to load on GitHub Pages.
