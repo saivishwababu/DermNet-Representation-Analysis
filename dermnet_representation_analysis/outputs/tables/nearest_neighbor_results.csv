@@ -1,0 +1,70 @@
+representation,disease_class,n_queries,top1_accuracy,top5_accuracy
+dinov2,Acne and Rosacea Photos,10,0.8,0.9
+dinov2,Actinic Keratosis Basal Cell Carcinoma and other Malignant Lesions,10,0.9,1.0
+dinov2,Atopic Dermatitis Photos,10,0.6,0.7
+dinov2,Bullous Disease Photos,10,0.7,0.7
+dinov2,Cellulitis Impetigo and other Bacterial Infections,10,0.4,0.8
+dinov2,Eczema Photos,10,0.7,0.8
+dinov2,Exanthems and Drug Eruptions,10,0.5,0.5
+dinov2,Hair Loss Photos Alopecia and other Hair Diseases,10,0.8,1.0
+dinov2,Herpes HPV and other STDs Photos,10,0.8,0.8
+dinov2,Light Diseases and Disorders of Pigmentation,10,0.7,0.9
+dinov2,Lupus and other Connective Tissue diseases,10,0.4,0.8
+dinov2,Melanoma Skin Cancer Nevi and Moles,10,0.6,0.9
+dinov2,Nail Fungus and other Nail Disease,10,0.8,0.9
+dinov2,Poison Ivy Photos and other Contact Dermatitis,10,0.2,0.5
+dinov2,Psoriasis pictures Lichen Planus and related diseases,10,0.7,1.0
+dinov2,Scabies Lyme Disease and other Infestations and Bites,10,0.5,0.5
+dinov2,Seborrheic Keratoses and other Benign Tumors,10,0.8,0.8
+dinov2,Systemic Disease,10,0.1,0.4
+dinov2,Tinea Ringworm Candidiasis and other Fungal Infections,10,0.7,0.9
+dinov2,Urticaria Hives,10,1.0,1.0
+dinov2,Vascular Tumors,10,0.5,0.8
+dinov2,Vasculitis Photos,10,0.8,0.9
+dinov2,Warts Molluscum and other Viral Infections,10,0.7,0.9
+resnet50,Acne and Rosacea Photos,10,0.5,0.8
+resnet50,Actinic Keratosis Basal Cell Carcinoma and other Malignant Lesions,10,1.0,1.0
+resnet50,Atopic Dermatitis Photos,10,0.6,0.6
+resnet50,Bullous Disease Photos,10,0.7,0.7
+resnet50,Cellulitis Impetigo and other Bacterial Infections,10,0.6,0.7
+resnet50,Eczema Photos,10,0.5,0.8
+resnet50,Exanthems and Drug Eruptions,10,0.6,0.6
+resnet50,Hair Loss Photos Alopecia and other Hair Diseases,10,0.8,1.0
+resnet50,Herpes HPV and other STDs Photos,10,0.5,0.7
+resnet50,Light Diseases and Disorders of Pigmentation,10,0.6,0.7
+resnet50,Lupus and other Connective Tissue diseases,10,0.4,0.7
+resnet50,Melanoma Skin Cancer Nevi and Moles,10,0.5,0.7
+resnet50,Nail Fungus and other Nail Disease,10,0.7,1.0
+resnet50,Poison Ivy Photos and other Contact Dermatitis,10,0.2,0.2
+resnet50,Psoriasis pictures Lichen Planus and related diseases,10,0.4,0.7
+resnet50,Scabies Lyme Disease and other Infestations and Bites,10,0.4,0.5
+resnet50,Seborrheic Keratoses and other Benign Tumors,10,0.5,0.7
+resnet50,Systemic Disease,10,0.1,0.4
+resnet50,Tinea Ringworm Candidiasis and other Fungal Infections,10,0.6,0.8
+resnet50,Urticaria Hives,10,0.6,0.7
+resnet50,Vascular Tumors,10,0.5,0.8
+resnet50,Vasculitis Photos,10,0.5,0.7
+resnet50,Warts Molluscum and other Viral Infections,10,0.6,0.8
+clip,Acne and Rosacea Photos,10,0.7,0.8
+clip,Actinic Keratosis Basal Cell Carcinoma and other Malignant Lesions,10,0.9,1.0
+clip,Atopic Dermatitis Photos,10,0.6,0.7
+clip,Bullous Disease Photos,10,0.7,0.8
+clip,Cellulitis Impetigo and other Bacterial Infections,10,0.5,0.5
+clip,Eczema Photos,10,0.9,0.9
+clip,Exanthems and Drug Eruptions,10,0.4,0.5
+clip,Hair Loss Photos Alopecia and other Hair Diseases,10,0.6,0.8
+clip,Herpes HPV and other STDs Photos,10,0.5,0.9
+clip,Light Diseases and Disorders of Pigmentation,10,0.7,0.8
+clip,Lupus and other Connective Tissue diseases,10,0.6,0.9
+clip,Melanoma Skin Cancer Nevi and Moles,10,0.7,0.8
+clip,Nail Fungus and other Nail Disease,10,0.7,0.8
+clip,Poison Ivy Photos and other Contact Dermatitis,10,0.4,0.4
+clip,Psoriasis pictures Lichen Planus and related diseases,10,0.6,0.8
+clip,Scabies Lyme Disease and other Infestations and Bites,10,0.5,0.6
+clip,Seborrheic Keratoses and other Benign Tumors,10,0.6,0.9
+clip,Systemic Disease,10,0.4,0.6
+clip,Tinea Ringworm Candidiasis and other Fungal Infections,10,0.7,1.0
+clip,Urticaria Hives,10,0.8,0.9
+clip,Vascular Tumors,10,0.6,0.7
+clip,Vasculitis Photos,10,0.9,0.9
+clip,Warts Molluscum and other Viral Infections,10,0.6,0.8

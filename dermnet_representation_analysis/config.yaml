@@ -1,0 +1,93 @@
+# =============================================================================
+# Representation Analysis of Dermatological Images
+# Configuration File
+# =============================================================================
+
+# --- Dataset ---
+dataset:
+  root_path: "/Users/saivishwa/Projects/DermNet-main/Dataset"          # Path to DermNet dataset (relative to this project)
+  image_extensions: [".jpg", ".jpeg", ".png", ".bmp", ".gif"]
+  max_samples_per_class: null      # Set an integer to subsample (null = use all)
+
+# --- Preprocessing ---
+preprocessing:
+  remove_duplicates: true
+  num_workers: 4                   # DataLoader workers
+
+# --- Feature Extraction ---
+feature_extraction:
+  batch_size: 32
+  device: "auto"                   # "auto", "cuda", "mps", or "cpu"
+  force_extract: false             # Re-extract even if .npy files exist
+
+  models:
+    dinov2:
+      name: "dinov2_vitb14"
+      source: "facebookresearch/dinov2:main"
+      image_size: 224
+      embedding_dim: 768
+    resnet50:
+      name: "resnet50"
+      image_size: 224
+      embedding_dim: 2048
+    clip:
+      name: "ViT-B-32"
+      pretrained: "laion2b_s34b_b79k"
+      image_size: 224
+      embedding_dim: 512
+
+# --- Dimensionality Reduction ---
+dimensionality_reduction:
+  pca_components: 50
+  umap_components: 2
+  umap_n_neighbors: 15
+  umap_min_dist: 0.1
+  umap_metric: "cosine"
+  run_tsne: false                  # Optional t-SNE (slow on large datasets)
+  tsne_perplexity: 30
+
+# --- Clustering ---
+clustering:
+  algorithms:
+    - "kmeans"
+    - "agglomerative"
+    - "hdbscan"
+  kmeans:
+    n_init: 10
+    max_iter: 300
+    random_state: 42
+  agglomerative:
+    linkage: "ward"
+  hdbscan:
+    min_cluster_size: 15
+    min_samples: 5
+
+# --- Analysis ---
+analysis:
+  nearest_neighbors:
+    top_k: 5
+    num_query_samples: 10          # Samples per class for NN analysis
+  confusion:
+    top_n_confused_pairs: 10
+    example_images_per_pair: 5
+
+# --- Visualization ---
+visualization:
+  dpi: 150
+  figsize_umap: [14, 10]
+  figsize_heatmap: [16, 14]
+  figsize_confusion: [18, 16]
+  colormap: "tab20"
+  style: "seaborn-v0_8-whitegrid"
+
+# --- Output Paths (relative to project root) ---
+outputs:
+  features_dir: "outputs/features"
+  plots_dir: "outputs/plots"
+  tables_dir: "outputs/tables"
+  reports_dir: "outputs/reports"
+  confused_pairs_dir: "outputs/plots/confused_pairs_examples"
+  nn_grids_dir: "outputs/plots/nearest_neighbor_grids"
+
+# --- Reproducibility ---
+random_seed: 42

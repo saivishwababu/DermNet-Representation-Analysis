@@ -1,0 +1,10 @@
+representation,clustering_method,n_clusters,silhouette,davies_bouldin,calinski_harabasz,ari,nmi,purity
+dinov2,kmeans,23,0.1609,1.8508,1083.68,0.0922,0.1796,0.2626
+dinov2,agglomerative,23,0.128,2.0177,923.21,0.0879,0.18,0.2566
+dinov2,hdbscan,5,0.115,1.1211,227.55,0.0002,0.0199,0.099
+resnet50,kmeans,23,0.0451,2.3256,552.1,0.0499,0.1279,0.2151
+resnet50,agglomerative,23,-0.0033,2.5688,425.76,0.0531,0.1285,0.2081
+resnet50,hdbscan,3,0.2581,1.0273,127.41,-0.0002,0.0071,0.0941
+clip,kmeans,23,0.0965,2.2947,671.38,0.1001,0.1829,0.2674
+clip,agglomerative,23,0.0692,2.6454,563.39,0.0889,0.1788,0.2586
+clip,hdbscan,3,0.217,1.0743,262.14,-0.0004,0.0115,0.0963

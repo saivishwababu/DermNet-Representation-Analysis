@@ -1,0 +1,24 @@
+# Dataset & raw media
+Dataset/
+temp/
+*.zip
+
+# OS artifacts
+.DS_Store
+Thumbs.db
+
+# Python caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+
+# Node/Next caches & dependencies
+node_modules/
+.next/
+out/
+dist/
+build/
+.env*.local
+*.tsbuildinfo

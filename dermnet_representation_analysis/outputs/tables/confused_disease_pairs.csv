@@ -1,0 +1,31 @@
+representation,class_a,class_b,centroid_distance,cluster_overlap_ratio,confusion_score
+dinov2,Psoriasis pictures Lichen Planus and related diseases,Tinea Ringworm Candidiasis and other Fungal Infections,0.0096,0.3718,1.3622
+dinov2,Cellulitis Impetigo and other Bacterial Infections,Poison Ivy Photos and other Contact Dermatitis,0.0211,0.3658,1.3447
+dinov2,Bullous Disease Photos,Systemic Disease,0.0202,0.3554,1.3352
+dinov2,Actinic Keratosis Basal Cell Carcinoma and other Malignant Lesions,Seborrheic Keratoses and other Benign Tumors,0.0251,0.3447,1.3197
+dinov2,Light Diseases and Disorders of Pigmentation,Lupus and other Connective Tissue diseases,0.0234,0.3261,1.3027
+dinov2,Atopic Dermatitis Photos,Systemic Disease,0.0342,0.3361,1.3019
+dinov2,Light Diseases and Disorders of Pigmentation,Systemic Disease,0.0277,0.3214,1.2937
+dinov2,Cellulitis Impetigo and other Bacterial Infections,Vascular Tumors,0.0308,0.3224,1.2916
+dinov2,Systemic Disease,Vasculitis Photos,0.0448,0.3267,1.2819
+dinov2,Bullous Disease Photos,Cellulitis Impetigo and other Bacterial Infections,0.0198,0.3006,1.2808
+resnet50,Psoriasis pictures Lichen Planus and related diseases,Tinea Ringworm Candidiasis and other Fungal Infections,0.0151,0.4065,1.3914
+resnet50,Light Diseases and Disorders of Pigmentation,Lupus and other Connective Tissue diseases,0.0156,0.3726,1.357
+resnet50,Atopic Dermatitis Photos,Light Diseases and Disorders of Pigmentation,0.0354,0.3879,1.3525
+resnet50,Cellulitis Impetigo and other Bacterial Infections,Poison Ivy Photos and other Contact Dermatitis,0.0193,0.3598,1.3405
+resnet50,Actinic Keratosis Basal Cell Carcinoma and other Malignant Lesions,Seborrheic Keratoses and other Benign Tumors,0.0276,0.3655,1.3379
+resnet50,Light Diseases and Disorders of Pigmentation,Systemic Disease,0.0347,0.3663,1.3316
+resnet50,Bullous Disease Photos,Systemic Disease,0.0252,0.3531,1.3279
+resnet50,Atopic Dermatitis Photos,Systemic Disease,0.0378,0.3651,1.3273
+resnet50,Systemic Disease,Vascular Tumors,0.044,0.3659,1.3218
+resnet50,Atopic Dermatitis Photos,Vasculitis Photos,0.0436,0.3648,1.3212
+clip,Cellulitis Impetigo and other Bacterial Infections,Poison Ivy Photos and other Contact Dermatitis,0.0076,0.3943,1.3867
+clip,Psoriasis pictures Lichen Planus and related diseases,Tinea Ringworm Candidiasis and other Fungal Infections,0.0044,0.3769,1.3725
+clip,Atopic Dermatitis Photos,Systemic Disease,0.015,0.3644,1.3493
+clip,Actinic Keratosis Basal Cell Carcinoma and other Malignant Lesions,Seborrheic Keratoses and other Benign Tumors,0.0114,0.3421,1.3307
+clip,Light Diseases and Disorders of Pigmentation,Systemic Disease,0.0097,0.3382,1.3286
+clip,Light Diseases and Disorders of Pigmentation,Lupus and other Connective Tissue diseases,0.0071,0.3278,1.3207
+clip,Scabies Lyme Disease and other Infestations and Bites,Systemic Disease,0.0133,0.3299,1.3166
+clip,Atopic Dermatitis Photos,Light Diseases and Disorders of Pigmentation,0.0139,0.3266,1.3127
+clip,Bullous Disease Photos,Systemic Disease,0.0128,0.318,1.3052
+clip,Bullous Disease Photos,Cellulitis Impetigo and other Bacterial Infections,0.0061,0.3095,1.3034
