@@ -494,7 +494,7 @@ export default function ResearchDashboard({
             </button>
 
             <a
-              href="https://github.com"
+              href="https://github.com/saivishwababu/DermNet-Representation-Analysis"
               target="_blank"
               rel="noreferrer"
               className="hidden sm:flex items-center space-x-1 rounded-lg border border-slate-200 bg-white px-3 py-1.5 text-xs font-semibold shadow-sm hover:bg-slate-50 dark:border-slate-800 dark:bg-slate-900 dark:hover:bg-slate-800"
@@ -1652,7 +1652,7 @@ export default function ResearchDashboard({
               <span className="font-bold text-slate-250 block mb-3 uppercase tracking-wider text-[10px]">Project Links</span>
               <ul className="space-y-2">
                 <li>
-                  <a href="https://github.com" target="_blank" rel="noreferrer" className="hover:text-white transition flex items-center space-x-1.5">
+                  <a href="https://github.com/saivishwababu/DermNet-Representation-Analysis" target="_blank" rel="noreferrer" className="hover:text-white transition flex items-center space-x-1.5">
                     <GithubIcon className="h-3.5 w-3.5" />
                     <span>Source Code (GitHub)</span>
                   </a>
